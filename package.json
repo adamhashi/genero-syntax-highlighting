@@ -19,7 +19,7 @@
                     "genero"
                 ],
                 "extensions": [
-                    ".es", ".4gl", ".per", ".all", ".err", ".fgl", ".rdd"
+                    ".4gl", ".es", ".per", ".all", ".err", ".fgl", ".rdd"
                 ],
                 "configuration": "./language-configuration.json"
             }
