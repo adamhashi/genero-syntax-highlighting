@@ -24,7 +24,7 @@ You'll also need to add this to your settings.json file in C:/Users/*You*/AppDat
             {
                 "scope": "string.genero",
                 "settings": {
-                    "foreground": "#C99CFF"
+                    "foreground": "#d400ff"
                 }
             },
             {
