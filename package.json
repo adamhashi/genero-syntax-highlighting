@@ -1,0 +1,25 @@
+{
+    "name": "genero-syntax-highlighting",
+    "displayName": "Genero Syntax Highlighting",
+    "description": "Syntax highlighting for Genero",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.42.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "genero",
+            "aliases": ["Genero", "genero"],
+            "extensions": [".es"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "genero",
+            "scopeName": "scope.genero",
+            "path": "./syntaxes/genero.tmLanguage.json"
+        }]
+    }
+}
