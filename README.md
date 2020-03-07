@@ -10,9 +10,8 @@ Highlights syntax. That's about it for now.
 
 ## Requirements
 
-Visual Studio Code I guess. Download the [vsix file](https://files.catbox.moe/8e5jwu.vsix),
-hit F1 and search for vsix. You'll also need to add this to your settings.json file in 
-C:/Users/*You*/AppData/Roaming/Code/User/:
+Visual Studio Code I guess. Download the vsix file, hit F1 and search for vsix to install it. 
+You'll also need to add this to your settings.json file in C:/Users/*You*/AppData/Roaming/Code/User/:
 
     "editor.tokenColorCustomizations": {
         "textMateRules": [
