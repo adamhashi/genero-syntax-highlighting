@@ -11,8 +11,6 @@ Highlights syntax. That's about it for now.
 Visual Studio Code I guess. You'll also need to add this to your settings.json file in 
 C:/Users/*You*/AppData/Roaming/Code/User/:
 
-...
-
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -36,7 +34,6 @@ C:/Users/*You*/AppData/Roaming/Code/User/:
         ]
     }
 
-...
 
 ## Known Issues
 
