@@ -11,6 +11,8 @@ Highlights syntax. That's about it for now.
 ## Requirements
 
 Visual Studio Code I guess. Download the vsix file, hit F1 and search for vsix to install it. 
+The default vsix extension will save genero files as .4gl by default. The one labelled cdn will save as .es.
+
 You'll also need to add this to your settings.json file in C:/Users/*You*/AppData/Roaming/Code/User/:
 
     "editor.tokenColorCustomizations": {
