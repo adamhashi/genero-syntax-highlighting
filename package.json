@@ -20,6 +20,13 @@
             "language": "genero",
             "scopeName": "scope.genero",
             "path": "./syntaxes/genero.tmLanguage.json"
-        }]
+        }],
+        "themes": [
+            {
+                "label": "genero",
+                "uiTheme": "vs-dark",
+                "path": "./themes/genero.tmTheme"
+            }
+        ]
     }
 }

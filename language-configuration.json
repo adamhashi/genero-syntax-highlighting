@@ -19,7 +19,8 @@
         ["\"", "\""],
         ["'", "'"],
         ["IF", "END IF"],
-        ["FOR", "END FOR"]
+        ["FOR", "END FOR"],
+        ["WHILE", "END WHILE"]
     ],
     // symbols that can be used to surround a selection
     "surroundingPairs": [
