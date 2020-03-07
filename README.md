@@ -8,7 +8,35 @@ Highlights syntax. That's about it for now.
 
 ## Requirements
 
-Visual Studio Code I guess.
+Visual Studio Code I guess. You'll also need to add this to your settings.json file in 
+C:/Users/*You*/AppData/Roaming/Code/User/:
+
+...
+
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "keyword.genero",
+                "settings": {
+                    "foreground": "#FFFF00"
+                }
+            },
+            {
+                "scope": "string.genero",
+                "settings": {
+                    "foreground": "#C99CFF"
+                }
+            },
+            {
+                "scope": "comment.genero",
+                "settings": {
+                    "foreground": "#00FFFF"
+                }
+            }
+        ]
+    }
+
+...
 
 ## Known Issues
 

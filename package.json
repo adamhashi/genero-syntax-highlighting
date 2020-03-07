@@ -2,7 +2,7 @@
     "name": "genero-syntax-highlighting",
     "displayName": "Genero Syntax Highlighting",
     "description": "Syntax highlighting for Genero",
-    "publisher": "adam",
+    "publisher": "Adam Hashi",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.42.0"
@@ -29,13 +29,6 @@
                 "language": "genero",
                 "scopeName": "scope.genero",
                 "path": "./syntaxes/genero.tmLanguage.json"
-            }
-        ],
-        "themes": [
-            {
-                "label": "genero",
-                "uiTheme": "vs-dark",
-                "path": "./themes/genero.tmTheme"
             }
         ]
     },

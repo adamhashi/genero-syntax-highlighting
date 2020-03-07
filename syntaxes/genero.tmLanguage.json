@@ -33,7 +33,6 @@
 		},
 		"string-dbl-quote": {
 			"name": "string.genero",
-			"color": "#ff0000",
 			"begin": "\"",
 			"end": "\"",
 			"patterns": [
