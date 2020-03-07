@@ -2,7 +2,7 @@
     "name": "genero-syntax-highlighting",
     "displayName": "Genero Syntax Highlighting",
     "description": "Syntax highlighting for Genero",
-    "publisher": "Adam Hashi",
+    "publisher": "Adam",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.42.0"
