@@ -40,6 +40,9 @@ You'll also need to add this to your settings.json file which you can find by pr
 
 Optionally, you can also add:
 
+    "terminal.integrated.shellArgs.windows": ["-l"],
+    "terminal.integrated.shellArgs.linux": ["-l"],
+    "terminal.integrated.shellArgs.osx": ["-l"],
     "editor.renderIndentGuides": false,
     "vim.handleKeys": {
         "<C-x>": false,
@@ -48,11 +51,13 @@ Optionally, you can also add:
         "<C-z>": false,
         "<C-y>": false,
         "<C-a>": false,
-        "<C-s>": false
+        "<C-s>": false,
+        "<C-f>": false
     }
 
 This will remove the tab indent lines and get rid of some of the vim commands with the far more useful Windows ones.
-If you like Ctrl-V in vim, middle click dragging in vscode does the same thing.
+If you like Ctrl-V in vim, middle click dragging in vscode does the same thing. The terminal settings
+lets the vscode terminal read your bash settings.
 
 ## Known Issues
 
