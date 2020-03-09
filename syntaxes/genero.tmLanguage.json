@@ -73,7 +73,7 @@
 		"number": {
 			"patterns": [{
 				"name": "string.genero",
-				"match": "[0-9]"
+				"match": "\\b\\d*\\.*\\d*\\d\\b"
 			}]
 		}
 	},
