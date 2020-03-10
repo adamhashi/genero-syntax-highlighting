@@ -3,7 +3,7 @@
     "displayName": "Genero Syntax Highlighting",
     "description": "Syntax highlighting for Genero",
     "publisher": "Adam",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.42.0"
     },
