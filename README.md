@@ -64,6 +64,10 @@ There's probably a ton, but then again if they aren't known then they wouldn't b
 
 ## Release Notes
 
-### 07-03-2020 1.0.0
+### 10-Mar-2020 0.0.2
+
+Added highlighting for per elements
+
+### 07-Mar-2020 0.0.1
 
 Initial release
