@@ -41,9 +41,7 @@ You'll also need to add this to your settings.json file which you can find by pr
 Optionally, you can also add:
 
     "git.untrackedChanges": "hidden",
-    "terminal.integrated.shellArgs.windows": ["-l"],
     "terminal.integrated.shellArgs.linux": ["-l"],
-    "terminal.integrated.shellArgs.osx": ["-l"],
     "editor.renderIndentGuides": false,
     "vim.handleKeys": {
         "<C-x>": false,
@@ -57,7 +55,7 @@ Optionally, you can also add:
     }
 
 This will remove the tab indent lines and get rid of some of the vim commands with the far more useful Windows ones.
-If you like Ctrl-V in vim, middle click dragging in vscode does the same thing. The terminal settings lets the 
+If you like Ctrl-V in vim, middle click dragging in vscode does the same thing. The terminal setting lets the 
 vscode terminal read your bash settings. The git setting hides untracked changes in the vscode source control page.
 
 ## Known Issues
