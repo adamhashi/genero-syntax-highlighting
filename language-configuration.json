@@ -20,7 +20,14 @@
         ["'", "'"],
         ["IF", "END IF"],
         ["FOR", "END FOR"],
-        ["WHILE", "END WHILE"]
+        ["WHILE", "END WHILE"],
+        ["VBOX", "END"],
+        ["HBOX", "END"],
+        ["GRID", "END"],
+        ["LAYOUT", "END"],
+        ["ACTION DEFAULTS", "END"],
+        ["GROUP", "END"],
+        ["PAGE", "END"]
     ],
     // symbols that can be used to surround a selection
     "surroundingPairs": [
