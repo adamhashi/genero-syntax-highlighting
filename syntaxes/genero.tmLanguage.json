@@ -15,6 +15,9 @@
 			"include": "#comment-block"
 		},
 		{
+			"include": "#comment-block-alt"
+		},
+		{
 			"include": "#comment-line"
 		},
 		{
@@ -57,6 +60,11 @@
 			"name": "comment.genero",
 			"begin": "{",
 			"end": "}"
+		},
+		"comment-block-alt": {
+			"name": "comment.genero",
+			"begin": "/",
+			"end": "/"
 		},
 		"comment-line": {
 			"patterns": [{

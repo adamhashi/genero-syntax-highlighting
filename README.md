@@ -15,6 +15,8 @@ The default vsix extension will save genero files as .4gl by default. The one la
 
 You'll also need to add this to your settings.json file which you can find by pressing F1 and typing settings:
 
+    "terminal.integrated.shellArgs.linux": ["-l"],
+    "files.encoding": "windows1252",
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -38,31 +40,30 @@ You'll also need to add this to your settings.json file which you can find by pr
         ]
     }
 
+The terminal setting lets vscode read your bash settings. Setting the encoding to Windows 1252 fixes errors
+when working with files containing french characters.
+
 Optionally, you can also add:
 
     "git.untrackedChanges": "hidden",
-    "terminal.integrated.shellArgs.linux": ["-l"],
     "editor.renderIndentGuides": false,
     "vim.handleKeys": {
-        "<C-x>": false,
-        "<C-c>": false,
-        "<C-v>": false,
-        "<C-z>": false,
-        "<C-y>": false,
-        "<C-a>": false,
-        "<C-s>": false,
-        "<C-f>": false
+        //"<C-x>": false,
     }
 
 This will remove the tab indent lines and get rid of some of the vim commands with the far more useful Windows ones.
-If you like Ctrl-V in vim, middle click dragging in vscode does the same thing. The terminal setting lets the 
-vscode terminal read your bash settings. The git setting hides untracked changes in the vscode source control page.
+Add lines to vim.handleKeys if you want certain keyboard commands to default to the vscode function. The git setting 
+hides untracked changes in the vscode source control page.
 
 ## Known Issues
 
 There's probably a ton, but then again if they aren't known then they wouldn't be here anyways.
 
 ## Release Notes
+
+### 05-May-2020 0.1.0
+
+Removed autocomplete for IF/FOR blocks, fixed /* comments not highlighting
 
 ### 10-Mar-2020 0.0.2
 
