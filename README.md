@@ -45,15 +45,15 @@ when working with files containing french characters.
 
 Optionally, you can also add:
 
+    "files.encoding": "windows1252",
     "git.untrackedChanges": "hidden",
     "editor.renderIndentGuides": false,
     "vim.handleKeys": {
         //"<C-x>": false,
     }
 
-This will remove the tab indent lines and get rid of some of the vim commands with the far more useful Windows ones.
-Add lines to vim.handleKeys if you want certain keyboard commands to default to the vscode function. The git setting 
-hides untracked changes in the vscode source control page.
+This will remove the tab indent lines. Add lines to vim.handleKeys if you want certain keyboard commands 
+to default to the vscode function. The git setting hides untracked changes in the vscode source control page.
 
 ## Known Issues
 
