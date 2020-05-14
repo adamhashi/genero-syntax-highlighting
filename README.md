@@ -2,7 +2,8 @@
 
 Highlighting for genero files with all the classic yellow and purples just as you remembered it.
 
-Pairs best with [VSCodeVim](https://github.com/VSCodeVim/Vim) and [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack).
+Use with the  [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) 
+extension in order to access one of the RMS servers or your CAD VM.
 
 ## Features
 
@@ -16,7 +17,9 @@ The default vsix extension will save genero files as .4gl by default. The one la
 You'll also need to add this to your settings.json file which you can find by pressing F1 and typing settings:
 
     "terminal.integrated.shellArgs.linux": ["-l"],
-    "files.encoding": "windows1252",
+    "files.encoding": "windows1252",    
+    "git.untrackedChanges": "hidden",
+    "editor.renderIndentGuides": false,
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -41,25 +44,18 @@ You'll also need to add this to your settings.json file which you can find by pr
     }
 
 The terminal setting lets vscode read your bash settings. Setting the encoding to Windows 1252 fixes errors
-when working with files containing french characters.
-
-Optionally, you can also add:
-
-    "files.encoding": "windows1252",
-    "git.untrackedChanges": "hidden",
-    "editor.renderIndentGuides": false,
-    "vim.handleKeys": {
-        //"<C-x>": false,
-    }
-
-This will remove the tab indent lines. Add lines to vim.handleKeys if you want certain keyboard commands 
-to default to the vscode function. The git setting hides untracked changes in the vscode source control page.
+when working with files containing french characters. The indent setting will remove tab indent lines, and the 
+git setting hides untracked changes in the vscode source control page.
 
 ## Known Issues
 
 There's probably a ton, but then again if they aren't known then they wouldn't be here anyways.
 
 ## Release Notes
+
+### 14-May-2020 0.1.1
+
+Actually fixed /* comments not highlighting for real now
 
 ### 05-May-2020 0.1.0
 
