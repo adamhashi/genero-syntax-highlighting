@@ -63,7 +63,7 @@
 		},
 		"comment-block-alt": {
 			"name": "comment.genero",
-			"begin": "/",
+			"begin": "/\\*",
 			"end": "/"
 		},
 		"comment-line": {
